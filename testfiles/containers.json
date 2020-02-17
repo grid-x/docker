@@ -1,0 +1,57 @@
+[
+  {
+    "Id": "60a2038405bb0bdbb1fd75d1cec9dadbdc328fe9d340546cbc75f7c2e01d57ed",
+    "Names": [
+      "/house"
+    ],
+    "Image": "postgres:9.4",
+    "ImageID": "sha256:7889bf54d0cfa516abecba087e4f79c77aad250700229598e5191b9aac73db4b",
+    "Command": "docker-entrypoint.sh postgres",
+    "Created": 1545061485,
+    "Ports": [
+      {
+        "IP": "127.0.0.1",
+        "PrivatePort": 5432,
+        "PublicPort": 5432,
+        "Type": "tcp"
+      }
+    ],
+    "Labels": {},
+    "State": "running",
+    "Status": "Up About an hour",
+    "HostConfig": {
+      "NetworkMode": "default"
+    },
+    "NetworkSettings": {
+      "Networks": {
+        "bridge": {
+          "IPAMConfig": null,
+          "Links": null,
+          "Aliases": null,
+          "NetworkID": "c4662337bce12926c8d15566efc339ee9761951ed0f854f5eb00f459e76cecba",
+          "EndpointID": "206dfe84be7d737389fd4082366597d6d281cff52a625686ca2d3ccd9b28798e",
+          "Gateway": "172.17.0.1",
+          "IPAddress": "172.17.0.2",
+          "IPPrefixLen": 16,
+          "IPv6Gateway": "",
+          "GlobalIPv6Address": "",
+          "GlobalIPv6PrefixLen": 0,
+          "MacAddress": "02:42:ac:11:00:02",
+          "DriverOpts": null
+        }
+      }
+    },
+    "Mounts": [
+      {
+        "Type": "volume",
+        "Name": "88182c1418ad56262bb57d3f2a77bb16d966578b68e630a2dd8dc689ad588522",
+        "Source": "",
+        "Destination": "/var/lib/postgresql/data",
+        "Driver": "local",
+        "Mode": "",
+        "RW": true,
+        "Propagation": ""
+      }
+    ]
+  }
+]

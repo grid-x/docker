@@ -1,0 +1,139 @@
+[
+  {
+    "Name": "bridge",
+    "Id": "b701066a87731ab9947e870a892e55d48e2ee608a46d28cec4cb752203422f41",
+    "Created": "2019-04-01T13:43:27.918681317+02:00",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": null,
+      "Config": [
+        {
+          "Subnet": "172.17.0.0/16",
+          "Gateway": "172.17.0.1"
+        }
+      ]
+    },
+    "Internal": false,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Containers": {},
+    "Options": {
+      "com.docker.network.bridge.default_bridge": "true",
+      "com.docker.network.bridge.enable_icc": "true",
+      "com.docker.network.bridge.enable_ip_masquerade": "true",
+      "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+      "com.docker.network.bridge.name": "docker0",
+      "com.docker.network.driver.mtu": "1500"
+    },
+    "Labels": {}
+  },
+  {
+    "Name": "host",
+    "Id": "f3bd22cf701dd29d5702a1b2414f371884c39c24eaac6c12328edc006b2b9ece",
+    "Created": "2018-09-08T23:45:59.397627842Z",
+    "Scope": "local",
+    "Driver": "host",
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": null,
+      "Config": []
+    },
+    "Internal": false,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Containers": {},
+    "Options": {},
+    "Labels": {}
+  },
+  {
+    "Name": "simulation_subnet_2",
+    "Id": "1a64976fec24da55fca19b0f223d425ff8e2c4199a0823123bb8b2593686077d",
+    "Created": "2019-02-21T02:01:18.277042169+01:00",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": null,
+      "Config": [
+        {
+          "Subnet": "172.27.0.0/16",
+          "Gateway": "172.27.0.1"
+        }
+      ]
+    },
+    "Internal": false,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Containers": {},
+    "Options": {},
+    "Labels": {}
+  },
+  {
+    "Name": "simulation_subnet_1",
+    "Id": "422bb11698f5f30491ec100674f1baf46ea360bef19fed498d6dc40b9b5c2ca7",
+    "Created": "2019-02-21T02:01:18.232007858+01:00",
+    "Scope": "local",
+    "Driver": "bridge",
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": null,
+      "Config": [
+        {
+          "Subnet": "172.26.0.0/16",
+          "Gateway": "172.26.0.1"
+        }
+      ]
+    },
+    "Internal": false,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Containers": {},
+    "Options": {},
+    "Labels": {}
+  },
+  {
+    "Name": "none",
+    "Id": "69bfa72cd4933ac71237febd0e5df2c421ac08b718b30aab21317483e059e26a",
+    "Created": "2018-09-08T23:45:59.377049466Z",
+    "Scope": "local",
+    "Driver": "null",
+    "EnableIPv6": false,
+    "IPAM": {
+      "Driver": "default",
+      "Options": null,
+      "Config": []
+    },
+    "Internal": false,
+    "Attachable": false,
+    "Ingress": false,
+    "ConfigFrom": {
+      "Network": ""
+    },
+    "ConfigOnly": false,
+    "Containers": {},
+    "Options": {},
+    "Labels": {}
+  }
+]
